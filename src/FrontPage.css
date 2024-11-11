@@ -1,0 +1,74 @@
+/* FrontPage.css */
+
+.front-page {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .image-section {
+    position: relative;
+  }
+  
+  .news-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e00;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+  
+  .content-section {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .content-section h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .date {
+    color: #888;
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #555;
+    margin: 15px 0;
+  }
+  
+  .read-more {
+    background-color: #e00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .read-more:hover {
+    background-color: #c00;
+  }
+  
